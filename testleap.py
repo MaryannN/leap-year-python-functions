@@ -5,6 +5,10 @@ import leap
 # Remeber that because your functions are defined in a different file, you must reference them with a dot: "leap.is_leap_year(1997)".
 # We've written two tests for your first function, so these two should work once you successfully code out the is_leap_year function.
 
-print(leap.is_leap_year(1997))
+# print(leap.is_leap_year(1997))
 
-print(leap.is_leap_year(1996))
+# print(leap.is_leap_year(1996))
+
+# print(leap.next_leap_year(2022))
+
+print(leap.between_leap_year(2000, 2010))
